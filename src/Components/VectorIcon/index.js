@@ -9,7 +9,6 @@ import EvilIcons from 'react-native-vector-icons/EvilIcons';
 import {typeIcon} from '../../until/constand';
 
 const VectorIcon = ({type, name, size = 30, color}) => {
-console.log('--type', type)
   switch (type) {
     case typeIcon.AntDesign:
       return <AntDesign name={name} size={size} color={color} />;
