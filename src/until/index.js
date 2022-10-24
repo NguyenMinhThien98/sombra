@@ -7,9 +7,11 @@ const heightMobileUI = 896;
 const widthMobileUi = 414;
 
 export const responsiveWidth = width => {
-  return (Dimensions.get('window').width * width) / widthMobileUI;
+  return (Dimensions.get('window').width * width) / widthMobileUi;
 };
 
 export const responsiveHeight = height => {
   return (Dimensions.get('window').height * height) / heightMobileUI;
 };
+
+export default { width, height, responsiveHeight, responsiveWidth}

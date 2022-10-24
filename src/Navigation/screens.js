@@ -1,9 +1,14 @@
 export const screens = {
-    Home: {
-        name: 'Home'
-    }
-}
+  Home: {
+    navigator: 'HomeStack',
+    name: 'HomeScreen',
+  },
+  Profile: {
+    navigator: 'ProfileStack',
+    name: 'ProfileScreen',
+  },
+};
 
 
 
-export default {screens}
+export default {screens};

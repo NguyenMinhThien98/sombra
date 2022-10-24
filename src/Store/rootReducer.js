@@ -1,7 +1,7 @@
 import HomeReducer from '../Feature/Home/slice';
 
 export const rootReducer = {
-  HomeReducer,
+  Home: HomeReducer,
 };
 
 export default {rootReducer};
